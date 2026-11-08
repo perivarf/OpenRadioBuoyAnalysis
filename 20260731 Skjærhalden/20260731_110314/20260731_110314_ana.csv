@@ -1,0 +1,9 @@
+key,value
+imu_rows,179762
+brake_windows,295
+vacc10hz_samples,17977
+welch_segments,67
+welch_seglen,1024
+Hs_madgwick,0.066
+Tz_madgwick,8.68
+Tc_madgwick,2.75

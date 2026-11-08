@@ -1,0 +1,16 @@
+key,value
+imu_rows,143831
+warmup_rows,2400
+brake_windows,0
+vacc_welch_samples,8839
+fir_late_eval_windows,0
+fifo_overflows,0
+raw_write_failures,0
+welch_segments,66
+welch_seglen,512
+welch_ring_full,0
+usable_spectrum,1
+Hs,0.001
+Tz,5.36
+Tc,2.52
+Tp,6.83

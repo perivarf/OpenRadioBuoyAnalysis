@@ -1,0 +1,17 @@
+quantity,value
+start_time,2026-10-28 20:31:08
+instrument,"GW INSTEK,GPP-4323,SN:GEW864387,V1.17"
+channel,3
+skip_s,0.0
+window_start_s,0.203
+window_end_s,300.014
+duration_s,299.811
+n_samples,14989
+mean_interval_ms,20.0
+mean_voltage_V,5.00057
+mean_current_mA,22.215
+min_current_mA,21.6
+max_current_mA,24.2
+mean_power_mW,111.088
+energy_J,33.30537
+energy_mWh,9.25149

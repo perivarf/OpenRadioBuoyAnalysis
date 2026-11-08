@@ -1,0 +1,27 @@
+key,value
+source,20261027_222349_ses.csv / _ana.csv / _cfg.csv
+orientation_name,Kalman
+raw_logged,yes
+gps_logged_in,raw.bin (format v3)
+build_commit,36fda32 + uncommitted GPS-in-raw change
+duration_s,1800
+effective_imu_rate_hz,466.8
+fifo_fill_time_ms,219.4
+fifo_drain_ms_mean,61.2
+fifo_drain_ms_max,176.5
+fifo_readout_us_per_word_mean,31
+fifo_readout_us_per_word_max,594
+orientation_filter_us_mean,866
+orientation_filter_us_max,943
+decimation_stage1_us_mean,71
+decimation_stage1_us_max,75
+sd_write_ms_mean,3.1
+sd_write_ms_max,118.0
+sd_bytes_per_write,977
+welch_segment_ms_mean,41.0
+welch_segment_ms_max,41.3
+gnss_poll_logging_ms_max,5.1
+longest_loop_pass_ms,181.3
+busy_pct,59.6
+fifo_overflows,0
+gps_records,16623

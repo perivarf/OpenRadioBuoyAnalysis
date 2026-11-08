@@ -1,0 +1,3 @@
+{
+  "extraPaths": ["analysis", "plots", "cli", "filters", "psd", "conversion", "maps", "models", "norce_kystverket", "power"]
+}

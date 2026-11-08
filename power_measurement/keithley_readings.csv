@@ -1,0 +1,7 @@
+id,keithley_mA,gw_mA,note
+1,4.75,,Deep-sleep floor; batch_all_2
+2,8.9,,Deep-sleep MCU + GNSS standby; batch_all_2
+3,10.25,,busy spin; Keithley 10.2-10.3; batch_all_2
+8,13.75,,busy spin + GNSS standby; Keithley 13.7-13.8; batch_all_2
+4,14.1,,IMU capture; Keithley 14.0-14.2; batch_all_2
+,83.3,83.1,separat kontroll ved høy strøm

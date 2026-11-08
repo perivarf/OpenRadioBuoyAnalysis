@@ -218,3 +218,45 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# =============================================================================
+# OpenRadioBuoyAnalysis: only raw data and scripts are committed.
+# Everything below is written by the tools (plot.sh, script_*.py) and can be
+# regenerated from the session folders.
+# =============================================================================
+
+# Per-config output directories (<measurement>/0.1-0.15/, ...)
+/*/[0-9]*.[0-9]*-[0-9]*.[0-9]*/
+# Figure series, config tests and the CSVs figures are drawn from
+taper_sweep/
+test_config/
+data/
+# Reconstruction work directories beside <stamp>_raw.bin (the .bin itself is kept)
+*_raw/
+*_imu_raw_*.csv
+*_stage1.txt
+*_raw_average.txt
+# Analysis results and figures
+*_python.csv
+*_filter_timing.csv
+*_koherens.csv
+*.png
+*.pdf
+# The LoRa range figure (tools/script_lora_range.py)
+/lora_range/
+# Backups
+*.tar.gz
+
+# Editors / OS
+.*/
+~$*
+*~
+Thumbs.db
+
+# power_measurement/: output from tools/script_power_*.py (the *_raw.csv/*_sum.csv logs,
+# keithley_readings.csv and legend_names.csv are the data and are kept)
+/power_measurement/batch_results*/
+/power_measurement/*_tests.csv
+/power_measurement/komponent_tabell.*
+# per-test files from script_power_batch_analyze.py --split (<prefix>_<id>_<name>_raw.csv)
+/power_measurement/*_[0-9]_*_raw.csv

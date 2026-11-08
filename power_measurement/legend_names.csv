@@ -1,0 +1,8 @@
+# navn,legendnavn  (navn = filnavn uten _raw.csv)
+busy_spin,"Busy spin, no sensors"
+deep_sleep,"Deep sleep (MCU)"
+deep_sleep_gps_sleep,"Deep sleep (MCU, GPS)"
+deep_sleep_gps_sleep_no_pc,"Deep sleep (MCU, GPS), no pc connected"
+gps_sd_imu,"GPS, SD, IMU"
+imu_only,"IMU only"
+sd_imu,"SD, IMU"

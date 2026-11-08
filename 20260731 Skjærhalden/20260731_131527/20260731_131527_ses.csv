@@ -1,0 +1,8 @@
+key,value
+start_utc_epoch,1785503728
+start_utc_iso,2026-07-31T13:15:28Z
+stop_utc_epoch,1785505544
+stop_utc_iso,2026-07-31T13:45:44Z
+duration_ms,1800194
+imu_rows,89819
+gps_rows,15508

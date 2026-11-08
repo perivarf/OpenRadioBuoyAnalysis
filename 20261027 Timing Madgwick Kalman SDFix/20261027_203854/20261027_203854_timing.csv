@@ -1,0 +1,24 @@
+key,value
+source,20261027_203854_ses.csv / _ana.csv / _cfg.csv
+orientation_name,Kalman
+raw_logged,yes
+build_commit,e04b3b7 + uncommitted SD fix (aligned raw header; no imu.csv sync)
+duration_s,1800
+effective_imu_rate_hz,467.1
+fifo_fill_time_ms,219.2
+fifo_drain_ms_mean,63.0
+fifo_drain_ms_max,104.0
+fifo_readout_us_per_word_mean,31
+fifo_readout_us_per_word_max,585
+orientation_filter_us_mean,880
+orientation_filter_us_max,942
+decimation_stage1_us_mean,70
+decimation_stage1_us_max,74
+sd_write_ms_mean,4.3
+sd_write_ms_max,37.6
+welch_segment_ms_mean,41.0
+welch_segment_ms_max,41.1
+gnss_poll_logging_ms_max,28.4
+longest_loop_pass_ms,122.6
+busy_pct,63.1
+fifo_overflows,0
